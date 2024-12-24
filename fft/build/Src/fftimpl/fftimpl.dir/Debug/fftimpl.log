@@ -1,0 +1,45 @@
+﻿  Building NVCC (Device) object Src/fftimpl/CMakeFiles/fftimpl.dir/Debug/fftimpl_generated_fftimpl.cu.obj
+  fftimpl.cu
+CUSTOMBUILD : nvcc warning : '--device-debug (-G)' overrides '--generate-line-info (-lineinfo)'
+H:\shdeshmukh\fft\Src\fftimpl\fftimpl.cu(314): warning #177-D: variable "m" was declared but never referenced
+  
+H:\shdeshmukh\fft\Src\fftimpl\fftimpl.cu(382): warning #177-D: variable "m" was declared but never referenced
+  
+H:\shdeshmukh\fft\Src\fftimpl\fftimpl.cu(414): warning #177-D: variable "tolerance" was declared but never referenced
+  
+CUSTOMBUILD : ptxas warning : Conflicting options --device-debug and --generate-line-info specified, ignoring --generate-line-info option
+  ptxas info    : 488 bytes gmem
+  ptxas info    : Compiling entry function '_Z18bit_reverse_kernelP6float2ii' for 'sm_86'
+  ptxas info    : Function properties for _Z18bit_reverse_kernelP6float2ii
+      8 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+  ptxas info    : Used 28 registers, 368 bytes cmem[0]
+  ptxas info    : Compiling entry function '_Z16fft_stage_kernelP6float2ii' for 'sm_86'
+  ptxas info    : Function properties for _Z16fft_stage_kernelP6float2ii
+      32 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+  ptxas info    : Used 32 registers, 368 bytes cmem[0]
+  ptxas info    : Compiling entry function '_Z24fft_kernel_sm_all_stagesP6float2ii' for 'sm_86'
+  ptxas info    : Function properties for _Z24fft_kernel_sm_all_stagesP6float2ii
+      32 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+  ptxas info    : Used 34 registers, 368 bytes cmem[0]
+  ptxas info    : Compiling entry function '_Z32fft_kernel_sm_all_stages_paddingP6float2ii' for 'sm_86'
+  ptxas info    : Function properties for _Z32fft_kernel_sm_all_stages_paddingP6float2ii
+      16 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+  ptxas info    : Used 50 registers, 368 bytes cmem[0]
+  ptxas info    : Function properties for sinf
+      0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+  ptxas info    : Function properties for cosf
+      0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+  ptxas info    : Function properties for __cosf
+      0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+  ptxas info    : Function properties for __sinf
+      0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+  ptxas info    : Function properties for __brev
+      0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+  ptxas info    : Function properties for _ZN41_INTERNAL_9d0a8141_10_fftimpl_cu_b1c7e46911make_float2Eff
+      8 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+CUSTOMBUILD : nvcc warning : '--device-debug (-G)' overrides '--generate-line-info (-lineinfo)'
+  fftimpl.cu
+H:\shdeshmukh\fft\Src\fftimpl\fftimpl.cu(423): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  Building NVCC intermediate link file Src/fftimpl/CMakeFiles/fftimpl.dir/Debug/fftimpl_intermediate_link.obj
+  fftimpl_generated_fftimpl.cu.obj
+  fftimpl.vcxproj -> H:\shdeshmukh\fft\build\Src\fftimpl\Debug\fftimpl.exe

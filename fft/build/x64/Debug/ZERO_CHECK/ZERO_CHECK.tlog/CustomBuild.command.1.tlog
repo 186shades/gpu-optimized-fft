@@ -1,0 +1,10 @@
+^H:\SHDESHMUKH\FFT\BUILD\CMAKEFILES\0CC4145A9056ABACB51169CCDA729F3A\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SH:/shdeshmukh/fft -BH:/shdeshmukh/fft/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file H:/shdeshmukh/fft/build/fft.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

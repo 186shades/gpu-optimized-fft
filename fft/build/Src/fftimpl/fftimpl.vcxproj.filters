@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="H:\shdeshmukh\fft\Src\fftimpl\fftimpl.cu">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\shdeshmukh\fft\build\CMakeFiles\df1bed6bd9f9f01dfc72f34baf720434\fftimpl_intermediate_link.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\shdeshmukh\fft\Src\fftimpl\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="H:\shdeshmukh\fft\build\Src\fftimpl\CMakeFiles\fftimpl.dir\$(Configuration)\fftimpl_generated_fftimpl.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="H:\shdeshmukh\fft\build\Src\fftimpl\CMakeFiles\fftimpl.dir\$(Configuration)\fftimpl_intermediate_link.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{BA74540E-8749-3551-BFC7-FC18AA90CE6C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Files">
+      <UniqueIdentifier>{4A85D6BA-14A1-30B5-8506-A4DB55413804}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D064743D-73B8-3323-8091-83DFB0235CDC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

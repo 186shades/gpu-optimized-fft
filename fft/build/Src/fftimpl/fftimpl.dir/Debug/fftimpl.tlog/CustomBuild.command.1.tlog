@@ -1,0 +1,36 @@
+^H:\SHDESHMUKH\FFT\SRC\FFTIMPL\FFTIMPL.CU
+setlocal
+cd H:\shdeshmukh\fft\build\Src\fftimpl\CMakeFiles\fftimpl.dir
+if %errorlevel% neq 0 goto :cmEnd
+H:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory H:/shdeshmukh/fft/build/Src/fftimpl/CMakeFiles/fftimpl.dir//Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D "CCBIN:PATH=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools/MSVC/14.29.30133/bin/Hostx64/x64" -D build_configuration:STRING=Debug -D generated_file:STRING=H:/shdeshmukh/fft/build/Src/fftimpl/CMakeFiles/fftimpl.dir//Debug/fftimpl_generated_fftimpl.cu.obj -D generated_cubin_file:STRING=H:/shdeshmukh/fft/build/Src/fftimpl/CMakeFiles/fftimpl.dir//Debug/fftimpl_generated_fftimpl.cu.obj.cubin.txt -P H:/shdeshmukh/fft/build/Src/fftimpl/CMakeFiles/fftimpl.dir//fftimpl_generated_fftimpl.cu.obj.Debug.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^H:\SHDESHMUKH\FFT\BUILD\CMAKEFILES\DF1BED6BD9F9F01DFC72F34BAF720434\FFTIMPL_INTERMEDIATE_LINK.OBJ.RULE
+setlocal
+"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\bin\nvcc.exe" -lnvToolExt -gencode arch=compute_86,code=sm_86 --cudart=shared -lineinfo -arch sm_86 -use_fast_math -m64 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools/MSVC/14.29.30133/bin/Hostx64/x64" -dlink H:/shdeshmukh/fft/build/Src/fftimpl/CMakeFiles/fftimpl.dir//Debug/fftimpl_generated_fftimpl.cu.obj -o H:/shdeshmukh/fft/build/Src/fftimpl/CMakeFiles/fftimpl.dir/Debug/fftimpl_intermediate_link.obj -Xcompiler /MDd
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^H:\SHDESHMUKH\FFT\SRC\FFTIMPL\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SH:/shdeshmukh/fft -BH:/shdeshmukh/fft/build --check-stamp-file H:/shdeshmukh/fft/build/Src/fftimpl/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
